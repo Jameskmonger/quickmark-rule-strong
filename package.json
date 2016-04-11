@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Jameskmonger/quickmark-rule-strong/issues"
   },
-  "homepage": "https://github.com/Jameskmonger/quickmark-rule-strong#readme"
+  "homepage": "https://github.com/Jameskmonger/quickmark-rule-strong#readme",
+  "devDependencies": {
+    "modunit": "^0.3.0"
+  }
 }
