@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Strong rule for Quickmark",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "modunit test.js"
   },
