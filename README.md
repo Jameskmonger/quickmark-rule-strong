@@ -1,6 +1,6 @@
 # quickmark-rule-strong
 
-Bold / strong text parser for [quickmark](https://github.com/jameskmonger/quickmark).
+Bold / strong text matching rule for [quickmark](https://github.com/jameskmonger/quickmark).
 
 ## Usage
 
