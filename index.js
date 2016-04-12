@@ -2,7 +2,7 @@
 
 var createStrongRegExpTag = function (character) {
     return '(?:\\' + character + '\\' + character + ')';
-}
+};
 
 var createStrongRegExp = function (tagCharacter) {
     return new RegExp('^' + createStrongRegExpTag(tagCharacter)
@@ -34,5 +34,4 @@ module.exports = function (input) {
     }
 
     return undefined;
-
 };
