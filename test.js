@@ -78,3 +78,15 @@ test('it returns an object with the correct \'parsed\' for asterisks', (t, input
     ['plain text here'],
     ['woop dee doo']
 ]);
+
+test('it returns an object with the correct \'original\' for underscores with text after', (t, input, original) => {
+
+    let output = strong(input);
+
+    t.assert.equal(original, output.original);
+
+}, [
+    ['__apples and oranges__ are my favourite', '__apples and oranges__'],
+    ['__plain text here__ bla bla bla', '__plain text here__'],
+    ['__woop dee doo__ and a whippy woo', '__woop dee doo__']
+]);
