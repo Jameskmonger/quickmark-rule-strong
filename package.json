@@ -27,7 +27,8 @@
   "homepage": "https://github.com/Jameskmonger/quickmark-rule-strong#readme",
   "devDependencies": {
     "modunit": "^0.3.0",
-    "tap-heart": "^0.2.0"
+    "tap-heart": "^0.2.0",
+    "eslint": "^2.7.0"
   },
   "modunit": {
     "reporter": "tap-heart"
