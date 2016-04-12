@@ -7,8 +7,7 @@ var createStrongRegExpTag = function (character) {
 var createStrongRegExp = function (tagCharacter) {
     return new RegExp('^' + createStrongRegExpTag(tagCharacter)
                         + '([\\s\\S]+?)'
-                        + createStrongRegExpTag(tagCharacter)
-                        + '$');
+                        + createStrongRegExpTag(tagCharacter));
 };
 
 var UNDERSCORES_REGEXP = createStrongRegExp('_');
