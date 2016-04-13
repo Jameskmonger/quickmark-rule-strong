@@ -29,6 +29,8 @@ strong('**some strong text** with a little bit of normal text after');
 //     parsed: 'some strong text'
 // }
 
+
+
 strong('plain text');
 // undefined
 ```
